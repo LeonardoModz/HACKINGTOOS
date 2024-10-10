@@ -1,13 +1,13 @@
 LEO HACKING TOOLS
 ```
-$ git clone https://github.com/Sitiaro/Phisher-X
+git clone https://github.com/LeonardoModz/HACKINGTOOS
 ```
 Mude para o diretório clone, dê permissões ao arquivo exec e execute Leo.py;
 ```
-$ cd leo.sh
+cd leo.sh
 ```
 ```
-$ chmod +x leo.dh
+ chmod +x leo.dh
 ```
 ```
-$ ./leo.sh
+ ./leo.sh
