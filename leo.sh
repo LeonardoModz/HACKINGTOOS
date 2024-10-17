@@ -111,7 +111,7 @@ dependencies() {
 				elif [[ `command -v dnf` ]]; then
 					sudo dnf -y install "$pkg"
 				else
-					echo -e "\n${RED}[${WHITE}!${RED}]${RED} Gerenciador de pacotes sem suporte, Instalar pacotes manualmente")
+					echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Gerenciador de pacotes sem suporte, Instalar pacotes manualmente")
 					{ reset_color; exit 1; }
 				fi
 			}
@@ -454,4 +454,4 @@ main_menu() {
 kill_pid
 dependencies
 install_cloudflared
-main_menu
+main_menumain_menu
